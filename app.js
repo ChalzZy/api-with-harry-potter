@@ -1,6 +1,5 @@
 
 const apiURL = "https://harry-potter-api-en.onrender.com/db";
-const mainContainer = ("main");
 
 fetch(apiURL).then((res) => res.json()).then((data) => {
     console.log(data.characters)
